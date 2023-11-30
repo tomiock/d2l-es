@@ -22,6 +22,25 @@ the *business logic* (you might say, the *brains*) of our application
 spells out a set of rules that map every conceivable circumstance
 to the corresponding action that our program should take.
 
+Hasta hace poco, casi todos los programas informáticos
+con los que podrías haber interactuado durante
+un dia ordinario estaban codificados en un rígido 
+conjunto de reglas especificando con precisión cómo debe comportarse.
+Digamos que queremos escribir una aplicación.
+para gestionar una plataforma de comercio electrónico.
+Después de revolotear alrededor de una pizarra
+durante unas horas para reflexionar sobre el problema,
+podríamos conformarnos con los grandes rasgos de una solución funcional:
+(i) los usuarios interactúan con la aplicación a través de una interfaz
+ejecutada en un navegador web o aplicación móvil;
+(ii) nuestra aplicación interactúa con una base de datos de nivel comercial
+para realizar un seguimiento del estado de cada usuario y mantener registros
+de transacciones históricas;
+y (iii) en el corazón de nuestra aplicación,
+la *lógica de negocios* (se podría decir, el *cerebro*) de nuestra aplicación,
+un conjunto de reglas mapea cada circunstancia imaginable
+a la acción correspondente que nuestro programa debería de ejecutar.
+
 To build the brains of our application,
 we might enumerate all the common events
 that our program should handle.
